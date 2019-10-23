@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="parameter">
+    <parameter name="url" value="https://www.myapplication.com"></parameter>
+    <parameter name="username" value="user1"></parameter>
+    <parameter name="password" value="pwd"></parameter>
+
+    <test name="Login1">
+        <classes>
+            <class name="Login1"></class>
+        </classes>
+
+    </test>
+</suite>
